@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  7 SEP 2021 11:16
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  7 SEP 2021 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1219,35 +1219,41 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BrainScanDenoisingKTAGslides.bbl' found.
 
-(./BrainScanDenoisingKTAGslides.bbl)
+(./BrainScanDenoisingKTAGslides.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                p1
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 42.
 Package biblatex Info: Reference segment=0 on input line 42.
  (./BrainScanDenoisingKTAGslides.nav)
 Missing character: There is no 5 ("35) in font nullfont!
-
-[1
+ [1
 
 ] (./BrainScanDenoisingKTAGslides.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
 
-
-(e:/TeXLive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (e:/TeXLive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
 
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 66.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 62.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 66.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 62.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 66.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 62.
  [3
 
 ]
@@ -1274,16 +1280,21 @@ Missing character: There is no 7 ("37) in font nullfont!
 ]
 \openout4 = `BrainScanDenoisingKTAGslides.vrb'.
 
- (./BrainScanDenoisingKTAGslides.vrb
-
-LaTeX Warning: Citation 'p1' on page 9 undefined on input line 4.
-
-) [9
+ (./BrainScanDenoisingKTAGslides.vrb) [9
 
 ]
-LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 163.
- [10
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 153.
+
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 153.
+
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 153.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 153.
+[10
 
 ] [11
 
@@ -1303,7 +1314,7 @@ LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `BrainScanDenoisingKTAGslides.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 7169C92FAEFC39DF7DAE3C1D3A89C64A;495.
+(rerunfilecheck)             Checksum: 2AF0207040B63131794293B8250F91CE;588.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                BrainScanDenoisingKTAGslides
@@ -1315,12 +1326,12 @@ Package logreq Info: Writing requests to 'BrainScanDenoisingKTAGslides.run.xml'
 
  ) 
 Here is how much of TeX's memory you used:
- 27776 strings out of 476919
- 531383 string characters out of 5825424
- 1255017 words of memory out of 5000000
- 47211 multiletter control sequences out of 15000+600000
- 408571 words of font info for 62 fonts, out of 8000000 for 9000
+ 27813 strings out of 476919
+ 531740 string characters out of 5825424
+ 1255144 words of memory out of 5000000
+ 47239 multiletter control sequences out of 15000+600000
+ 411231 words of font info for 80 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,132p,1079b,3608s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,11n,132p,1079b,4837s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on BrainScanDenoisingKTAGslides.pdf (11 pages).

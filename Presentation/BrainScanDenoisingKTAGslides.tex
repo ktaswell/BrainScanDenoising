@@ -4,9 +4,9 @@
 \documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
 \usetheme{Simple}
 
-\usepackage{hyperref}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{hyperref}
 
 % begin BibLaTeX section
 \usepackage[backend=biber,texencoding=utf8,bibencoding=utf8,style=ieee,maxnames=3,bibwarn=true]{biblatex}
@@ -55,13 +55,9 @@
 	\section{Theory}
 	%------------------------------------------------
 	
-	\begin{frame}{Bullet Points}
+	\begin{frame}{Singular Value Decomposition and Low Rank Approximation}
 		\begin{itemize}
-			\item Lorem ipsum dolor sit amet, consectetur adipiscing elit
-			\item Aliquam blandit faucibus nisi, sit amet dapibus enim tempus eu
-			\item Nulla commodo, erat quis gravida posuere, elit lacus lobortis est, quis porttitor odio mauris at libero
-			\item Nam cursus est eget velit posuere pellentesque
-			\item Vestibulum faucibus velit a augue condimentum quis convallis nulla gravida
+			\item Test reference \cite{Golub1987}
 		\end{itemize}
 	\end{frame}
 	
@@ -144,7 +140,7 @@
 		\frametitle{Citation}
 		An example of the \verb|\cite| command to cite within the presentation:\\~
 		
-		This statement requires citation \cite{p1}.
+		This statement requires citation.
 	\end{frame}
 	
 	%------------------------------------------------
@@ -153,13 +149,7 @@
 	
 	\begin{frame}{References}
 		% Beamer does not support BibTeX so references must be inserted manually as below
-		\footnotesize{
-			\begin{thebibliography}{99}
-				\bibitem[Smith, 2012]{p1} John Smith (2012)
-				\newblock Title of the publication
-				\newblock \emph{Journal Name} 12(3), 45 -- 678.
-			\end{thebibliography}
-		}
+		\printbibliography
 	\end{frame}
 	
 	%------------------------------------------------

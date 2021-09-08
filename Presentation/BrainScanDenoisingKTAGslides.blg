@@ -1,17 +1,18 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'BrainScanDenoisingKTAGslides.blg'
-[133] biber-MSWIN32:340> INFO - === 
-[170] Biber.pm:415> INFO - Reading 'BrainScanDenoisingKTAGslides.bcf'
-[285] Biber.pm:952> INFO - Found 1 citekeys in bib section 0
-[299] Biber.pm:4340> INFO - Processing section 0
-[312] Biber.pm:4531> INFO - Looking for bibtex format file 'Denoising.bib' for section 0
-[371] bibtex.pm:1689> INFO - LaTeX decoding ...
-[384] bibtex.pm:1494> INFO - Found BibTeX data source 'Denoising.bib'
-[391] Utils.pm:395> WARN - I didn't find a database entry for 'p1' (section 0)
-[397] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[397] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[397] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[397] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[398] bbl.pm:654> INFO - Writing 'BrainScanDenoisingKTAGslides.bbl' with encoding 'UTF-8'
-[398] bbl.pm:757> INFO - Output to BrainScanDenoisingKTAGslides.bbl
-[398] Biber.pm:128> INFO - WARNINGS: 1
+[91] biber-MSWIN32:340> INFO - === 
+[129] Biber.pm:415> INFO - Reading 'BrainScanDenoisingKTAGslides.bcf'
+[233] Biber.pm:952> INFO - Found 2 citekeys in bib section 0
+[247] Biber.pm:4340> INFO - Processing section 0
+[258] Biber.pm:4531> INFO - Looking for bibtex format file 'Denoising.bib' for section 0
+[298] bibtex.pm:1689> INFO - LaTeX decoding ...
+[312] bibtex.pm:1494> INFO - Found BibTeX data source 'Denoising.bib'
+[340] Utils.pm:395> WARN - legacy month field 'apr' in entry 'Golub1987' is not an integer - this will probably not sort properly.
+[345] Utils.pm:395> WARN - I didn't find a database entry for 'p1' (section 0)
+[351] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[351] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[351] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[351] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[352] bbl.pm:654> INFO - Writing 'BrainScanDenoisingKTAGslides.bbl' with encoding 'UTF-8'
+[354] bbl.pm:757> INFO - Output to BrainScanDenoisingKTAGslides.bbl
+[354] Biber.pm:128> INFO - WARNINGS: 2
