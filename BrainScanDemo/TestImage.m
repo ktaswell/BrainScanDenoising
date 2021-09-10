@@ -13,6 +13,19 @@ function [N, D, snrN, snrD] = TestImage(I)
 %           snrD - Signal to Noise Ratio of Denoised 2D Image matrix
 
 
-
-
+    I = im2double(I);
+    N = imnoise(I, "gaussian");
+    [U, S, V] = svd(N);
+    
+    c = 2.858; % threshold coefficeint
+    s = median(diag(S));
+    t = c*s; % threshold for arbitrary matrix
+    
+    S(S < t) = 0; % truncate based on threshold t
+    
+    D = U*S*V'; % reconstruct new thresholded matrix
+    
+    % TODO: Add signal to nosie metric here.
+    snrN = ;
+    snrD = ;
 end 
