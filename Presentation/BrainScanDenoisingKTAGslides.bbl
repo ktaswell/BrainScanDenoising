@@ -16,5 +16,154 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Eckart1936}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b5901eb382ee926774180d95eaf3f1b5}{%
+           family={Eckart},
+           familyi={E\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e5657dcb4b96e2da25946664f689e01d}{%
+           family={Young},
+           familyi={Y\bibinitperiod},
+           given={Gale},
+           giveni={G\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{709e46ddc31aa8d4998c5dab17def8a3}
+      \strng{fullhash}{709e46ddc31aa8d4998c5dab17def8a3}
+      \strng{bibnamehash}{709e46ddc31aa8d4998c5dab17def8a3}
+      \strng{authorbibnamehash}{709e46ddc31aa8d4998c5dab17def8a3}
+      \strng{authornamehash}{709e46ddc31aa8d4998c5dab17def8a3}
+      \strng{authorfullhash}{709e46ddc31aa8d4998c5dab17def8a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychometrika}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{The approximation of one matrix by another of lower rank}
+      \field{volume}{1}
+      \field{year}{1936}
+      \field{pages}{211\bibrangedash 218}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/bf02288367
+      \endverb
+    \endentry
+    \entry{Chatterjee2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=225d0c64bc582e380c1334293c4db1a3}{%
+           family={Chatterjee},
+           familyi={C\bibinitperiod},
+           given={Sourav},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Institute of Mathematical Statistics}%
+      }
+      \strng{namehash}{225d0c64bc582e380c1334293c4db1a3}
+      \strng{fullhash}{225d0c64bc582e380c1334293c4db1a3}
+      \strng{bibnamehash}{225d0c64bc582e380c1334293c4db1a3}
+      \strng{authorbibnamehash}{225d0c64bc582e380c1334293c4db1a3}
+      \strng{authornamehash}{225d0c64bc582e380c1334293c4db1a3}
+      \strng{authorfullhash}{225d0c64bc582e380c1334293c4db1a3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Annals of Statistics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{Matrix estimation by Universal Singular Value Thresholding}
+      \field{volume}{43}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1214/14-aos1272
+      \endverb
+    \endentry
+    \entry{Gavish2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=48a1c9e7c88a91077320dfaff070b654}{%
+           family={Gavish},
+           familyi={G\bibinitperiod},
+           given={Matan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9fb99e5502c0b871a6067b55fcaf8986}{%
+           family={Donoho},
+           familyi={D\bibinitperiod},
+           given={David\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{d55c14383c00a76064b8237430f2f375}
+      \strng{fullhash}{d55c14383c00a76064b8237430f2f375}
+      \strng{bibnamehash}{d55c14383c00a76064b8237430f2f375}
+      \strng{authorbibnamehash}{d55c14383c00a76064b8237430f2f375}
+      \strng{authornamehash}{d55c14383c00a76064b8237430f2f375}
+      \strng{authorfullhash}{d55c14383c00a76064b8237430f2f375}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider recovery of low-rank matrices from noisy data by hard thresholding of singular values, where singular values below a prescribed threshold $\lambda$ are set to 0. We study the asymptotic MSE in a framework where the matrix size is large compared to the rank of the matrix to be recovered, and the signal-to-noise ratio of the low-rank piece stays constant. The AMSE-optimal choice of hard threshold, in the case of n-by-n matrix in noise level \sigma, is simply $(4/\sqrt{3}) \sqrt{n}\sigma \approx 2.309 \sqrt{n}\sigma$ when $\sigma$ is known, or simply $2.858\cdot y_{med}$ when $\sigma$ is unknown, where $y_{med}$ is the median empirical singular value. For nonsquare $m$ by $n$ matrices with $m \neq n$, these thresholding coefficients are replaced with different provided constants. In our asymptotic framework, this thresholding rule adapts to unknown rank and to unknown noise level in an optimal manner: it is always better than hard thresholding at any other value, no matter what the matrix is that we are trying to recover, and is always better than ideal Truncated SVD (TSVD), which truncates at the true rank of the low-rank matrix we are trying to recover. Hard thresholding at the recommended value to recover an n-by-n matrix of rank r guarantees an AMSE at most $3nr\sigma^2$. In comparison, the guarantee provided by TSVD is $5nr\sigma^2$, the guarantee provided by optimally tuned singular value soft thresholding is $6nr\sigma^2$, and the best guarantee achievable by any shrinkage of the data singular values is $2nr\sigma^2$. Empirical evidence shows that these AMSE properties of the $4/\sqrt{3}$ thresholding rule remain valid even for relatively small n, and that performance improvement over TSVD and other shrinkage rules is substantial, turning it into the practical hard threshold of choice.}
+      \field{eprintclass}{stat.ME}
+      \field{eprinttype}{arXiv}
+      \field{month}{5}
+      \field{title}{The Optimal Hard Threshold for Singular Values is 4/sqrt(3)}
+      \field{year}{2013}
+      \verb{eprint}
+      \verb 1305.5870
+      \endverb
+      \verb{file}
+      \verb :Gavish2013 - The Optimal Hard Threshold for Singular Values Is 4_sqrt(3).pdf:PDF
+      \endverb
+      \keyw{stat.ME}
+    \endentry
+    \entry{Shabalin2013}{article}{}
+      \name{author}{2}{}{%
+        {{hash=90c866f0739e35ced15b6626d7658669}{%
+           family={Shabalin},
+           familyi={S\bibinitperiod},
+           given={Andrey\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4f5f6a41cce8a328cb2cdfefdd9b57af}{%
+           family={Nobel},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier {BV}}%
+      }
+      \strng{namehash}{244434e82b8e563641f7994889b03cde}
+      \strng{fullhash}{244434e82b8e563641f7994889b03cde}
+      \strng{bibnamehash}{244434e82b8e563641f7994889b03cde}
+      \strng{authorbibnamehash}{244434e82b8e563641f7994889b03cde}
+      \strng{authornamehash}{244434e82b8e563641f7994889b03cde}
+      \strng{authorfullhash}{244434e82b8e563641f7994889b03cde}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Multivariate Analysis}
+      \field{month}{7}
+      \field{title}{Reconstruction of a low-rank matrix in the presence of Gaussian noise}
+      \field{volume}{118}
+      \field{year}{2013}
+      \field{pages}{67\bibrangedash 76}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.jmva.2013.03.005
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

@@ -1,4 +1,9 @@
-\frametitle{Citation}
-^^I^^IAn example of the \verb|\cite| command to cite within the presentation:\\~
-^^I^^I
-^^I^^IThis statement requires citation.
+\frametitle{A Noisy Image}
+\begin{itemize}
+^^I^^I^^I\item Suppose we have noise in an image. We can simulate this by adding noise to our beautiful picture of a Kingfisher in MATLAB with \verb*|imnoise(I)|^^I
+^^I^^I^^I\item Image Properties: $1724\times1724$ in full JPG RGB color scale from 0 to 255 for Red, Green, and Blue.
+^^I^^I\end{itemize}
+^^I^^I\begin{figure}
+^^I^^I^^I\centering
+^^I^^I^^I\includegraphics[scale=0.35]{KingfisherWNoise.png}
+^^I^^I\end{figure}

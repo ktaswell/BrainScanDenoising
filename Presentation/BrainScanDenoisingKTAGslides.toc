@@ -2,6 +2,6 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {1}{Theory}{3}{0}{1}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {2}{Easy Application - Kingfisher}{6}{0}{2}
+\beamer@sectionintoc {2}{Simple Example - Kingfisher}{7}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Hard Application - Medical Imaging}{10}{0}{3}
+\beamer@sectionintoc {3}{Hard Application - Medical Imaging}{16}{0}{3}

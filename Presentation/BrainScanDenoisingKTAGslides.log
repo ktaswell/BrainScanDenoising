@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  11 SEP 2021 11:56
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  11 SEP 2021 16:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1230,59 +1230,131 @@ Missing character: There is no 5 ("35) in font nullfont!
 ] (./BrainScanDenoisingKTAGslides.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
 
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 65.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
 
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 65.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 67.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 65.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 67.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 65.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 67.
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10.95> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 67.
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <8> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 67.
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <6> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 67.
  [3
 
-]
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 1 ("31) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 2 ("32) in font nullfont!
- [4
-
-] [5
-
-] [6
+] [4
 
 ]
-Missing character: There is no 2 ("32) in font nullfont!
-Missing character: There is no 7 ("37) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+Missing character: There is no 1 ("31) in font nullfont!
+ [5
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <7> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <5> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <17.28> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <12> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <17.28> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+ [6
+
+]
+File: Kingfisher.jpg Graphic file (type bmp)
+<Kingfisher.jpg>
 
 [7
-
-] [8
 
 ]
 \openout4 = `BrainScanDenoisingKTAGslides.vrb'.
 
- (./BrainScanDenoisingKTAGslides.vrb) [9
+ (./BrainScanDenoisingKTAGslides.vrb
+File: KingfisherWNoise.png Graphic file (type bmp)
+<KingfisherWNoise.png>
+)
+Overfull \vbox (2.57994pt too high) detected at line 134
+ []
+
+[8
 
 ]
+File: BeakNoise.png Graphic file (type bmp)
+<BeakNoise.png>
 
-LaTeX Warning: Empty bibliography on input line 156.
+Overfull \vbox (5.49844pt too high) detected at line 149
+ []
+
+[9
+
+]
+File: ArbitraryDenoise.png Graphic file (type bmp)
+<ArbitraryDenoise.png>
+
+Overfull \vbox (0.41666pt too high) detected at line 167
+ []
 
 [10
 
-] [11
+]
+File: SquareDenoise.png Graphic file (type bmp)
+<SquareDenoise.png>
+
+Overfull \vbox (4.30104pt too high) detected at line 185
+ []
+
+[11
+
+]
+File: BulkDenoise.png Graphic file (type bmp)
+<BulkDenoise.png>
+ [12
+
+] [13
+
+] [14
+
+]
+LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <9> not available
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 249.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 249.
+ [15
+
+]
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 258.
+
+[16
+
+] [17
 
 ]
 \tf@nav=\write7
@@ -1297,19 +1369,19 @@ LaTeX Warning: Empty bibliography on input line 156.
  (./BrainScanDenoisingKTAGslides.aux)
 Package rerunfilecheck Info: File `BrainScanDenoisingKTAGslides.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 7169C92FAEFC39DF7DAE3C1D3A89C64A;495.
+(rerunfilecheck)             Checksum: F1709C1575B9B0EAA433E5A10F173012;578.
 Package logreq Info: Writing requests to 'BrainScanDenoisingKTAGslides.run.xml'
 .
 \openout1 = `BrainScanDenoisingKTAGslides.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27551 strings out of 476919
- 526252 string characters out of 5825424
- 1254978 words of memory out of 5000000
- 46988 multiletter control sequences out of 15000+600000
- 408563 words of font info for 61 fonts, out of 8000000 for 9000
+ 27910 strings out of 476919
+ 533001 string characters out of 5825424
+ 1258637 words of memory out of 5000000
+ 47305 multiletter control sequences out of 15000+600000
+ 416146 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,132p,1079b,3608s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,11n,132p,1957b,4802s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on BrainScanDenoisingKTAGslides.pdf (11 pages).
+Output written on BrainScanDenoisingKTAGslides.pdf (17 pages).
