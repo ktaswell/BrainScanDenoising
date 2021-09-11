@@ -16,53 +16,5 @@
   {}
 \endgroup
 
-
-\refsection{0}
-  \datalist[entry]{none/global//global/global}
-    \entry{Golub1987}{article}{}
-      \name{author}{3}{}{%
-        {{hash=d5fa18ca77d114cfc0017165cfb07607}{%
-           family={Golub},
-           familyi={G\bibinitperiod},
-           given={G.H.},
-           giveni={G\bibinitperiod}}}%
-        {{hash=f2547a976973555cb9bda553c9be0c42}{%
-           family={Hoffman},
-           familyi={H\bibinitperiod},
-           given={Alan},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6366a4adb03e15201b608f41d14de9a4}{%
-           family={Stewart},
-           familyi={S\bibinitperiod},
-           given={G.W.},
-           giveni={G\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier {BV}}%
-      }
-      \strng{namehash}{d2a2d87f63e43908e625ebf7c7ac984e}
-      \strng{fullhash}{d2a2d87f63e43908e625ebf7c7ac984e}
-      \strng{bibnamehash}{d2a2d87f63e43908e625ebf7c7ac984e}
-      \strng{authorbibnamehash}{d2a2d87f63e43908e625ebf7c7ac984e}
-      \strng{authornamehash}{d2a2d87f63e43908e625ebf7c7ac984e}
-      \strng{authorfullhash}{d2a2d87f63e43908e625ebf7c7ac984e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Linear Algebra and its Applications}
-      \field{month}{4}
-      \field{title}{A generalization of the Eckart-Young-Mirsky matrix approximation theorem}
-      \field{volume}{88-89}
-      \field{year}{1987}
-      \field{pages}{317\bibrangedash 327}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/0024-3795(87)90114-5
-      \endverb
-    \endentry
-  \enddatalist
-  \missing{p1}
-\endrefsection
 \endinput
 

@@ -2348,7 +2348,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Denoising.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Golub1987</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

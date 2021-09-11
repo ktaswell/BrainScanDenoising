@@ -55,10 +55,12 @@
 	\section{Theory}
 	%------------------------------------------------
 	
-	\begin{frame}{Singular Value Decomposition and Low Rank Approximation}
+	\begin{frame}{Singular Value Decomposition}
 		\begin{itemize}
-			test
-			\item Test reference \cite{Golub1987}
+			\item Suppose we want to decompose a matrix in a way similar to Eigenvalue decomposition, however, without the stipulation that the matrix must be invertible.
+			\item Singular value decomposition provides ability to generalize from $A = \Phi\Lambda\Phi^{-1}$ to $A = U\Sigma V^{T}$
+			\item For a given matrix $A$ which is size $m\times n$, $U$ is the left unitary matrix forming an orthonormal basis for $\mathbb{R}^m$  while $V$ is the right unitary matrix forming an orthonormal basis for $\mathbb{R}^n$
+			\item $\Sigma$ is an $m\times n$ diagonal matrix of the singular values where $\sigma_1 \geq \sigma_2 \geq \sigma_n$
 		\end{itemize}
 	\end{frame}
 	

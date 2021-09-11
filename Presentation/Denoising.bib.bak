@@ -38,4 +38,16 @@
   publisher = {Elsevier {BV}},
 }
 
+@Article{Chatterjee2015,
+  author    = {Sourav Chatterjee},
+  journal   = {The Annals of Statistics},
+  title     = {Matrix estimation by Universal Singular Value Thresholding},
+  year      = {2015},
+  month     = {feb},
+  number    = {1},
+  volume    = {43},
+  doi       = {10.1214/14-aos1272},
+  publisher = {Institute of Mathematical Statistics},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
