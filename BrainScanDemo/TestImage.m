@@ -26,6 +26,6 @@ function [N, D, snrN, snrD] = TestImage(I)
     D = U*S*V'; % reconstruct new thresholded matrix
     
     % TODO: Add signal to nosie metric here.
-    snrN = ;
-    snrD = ;
+    snrN = snr(I, N-I);
+    snrD = snr(I, D-I);
 end 
