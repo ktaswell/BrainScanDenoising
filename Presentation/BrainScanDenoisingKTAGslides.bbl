@@ -163,6 +163,86 @@
       \verb 10.1016/j.jmva.2013.03.005
       \endverb
     \endentry
+    \entry{Taswell2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6cd0b7282890a9daeb79fa48302e9cf8}{%
+           family={Taswell},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Institute of Electrical}%
+        {Electronics Engineers ({IEEE})}%
+      }
+      \strng{namehash}{6cd0b7282890a9daeb79fa48302e9cf8}
+      \strng{fullhash}{6cd0b7282890a9daeb79fa48302e9cf8}
+      \strng{bibnamehash}{6cd0b7282890a9daeb79fa48302e9cf8}
+      \strng{authorbibnamehash}{6cd0b7282890a9daeb79fa48302e9cf8}
+      \strng{authornamehash}{6cd0b7282890a9daeb79fa48302e9cf8}
+      \strng{authorfullhash}{6cd0b7282890a9daeb79fa48302e9cf8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing in Science {\&} Engineering}
+      \field{number}{3}
+      \field{title}{The what, how, and why of wavelet shrinkage denoising}
+      \field{volume}{2}
+      \field{year}{2000}
+      \field{pages}{12\bibrangedash 19}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/5992.841791
+      \endverb
+    \endentry
+    \entry{Fan2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=d471dca6d4cba307383951beae78670e}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Linwei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ae021641a8f85fd2607152ab99ed115b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod}}}%
+        {{hash=27beedb1e77a8c0816fc622614ac4e08}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod}}}%
+        {{hash=317109e5efd6b04b2dcc18b15fab760a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Caiming},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{f0e09192ab808701100f8b3e4e8a2732}
+      \strng{fullhash}{78b05ced0e7f463315eb2284b327f16f}
+      \strng{bibnamehash}{f0e09192ab808701100f8b3e4e8a2732}
+      \strng{authorbibnamehash}{f0e09192ab808701100f8b3e4e8a2732}
+      \strng{authornamehash}{f0e09192ab808701100f8b3e4e8a2732}
+      \strng{authorfullhash}{78b05ced0e7f463315eb2284b327f16f}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Visual Computing for Industry, Biomedicine, and Art}
+      \field{month}{7}
+      \field{number}{1}
+      \field{title}{Brief review of image denoising techniques}
+      \field{volume}{2}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1186/s42492-019-0016-7
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

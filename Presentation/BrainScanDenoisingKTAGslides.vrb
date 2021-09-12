@@ -1,9 +1,32 @@
-\frametitle{A Noisy Image}
+\frametitle{Removing noise with Thresholding}
 \begin{itemize}
-^^I^^I^^I\item Suppose we have noise in an image. We can simulate this by adding noise to our beautiful picture of a Kingfisher in MATLAB with \verb*|imnoise(I)|^^I
-^^I^^I^^I\item Image Properties: $1724\times1724$ in full JPG RGB color scale from 0 to 255 for Red, Green, and Blue. Noise Introduced $r_{red} = 11.1265, r_{green} = 6.8694, r_{blue} = 7.0581$
+^^I^^I^^I\item For each image slice in the 1st dimension:
+^^I^^I^^I\begin{enumerate}
+^^I^^I^^I^^I\item Add noise with default \verb*|imnoise(I,'gaussian')|
+^^I^^I^^I^^I\item Denoise with arbitrary thresholding $\tau = 2.858y_{\text{med}}$
+^^I^^I^^I^^I\item Find $\hat{A} = \hat{U}\hat{\Sigma}\hat{V}^{T}$
+^^I^^I^^I^^I\item Measure the signal to noise ratio for both the noisy and denoised image.
+^^I^^I^^I\end{enumerate}
+^^I^^I^^I\item The process was also repeated with non-arbitrary thresholding
 ^^I^^I\end{itemize}
+^^I^^I
 ^^I^^I\begin{figure}
 ^^I^^I^^I\centering
-^^I^^I^^I\includegraphics[scale=0.35]{KingfisherWNoise.png}
+^^I^^I^^I\begin{subfigure}[t]{0.3\textwidth}
+^^I^^I^^I^^I\centering
+^^I^^I^^I^^I\includegraphics[width=\linewidth]{BrainScanComparison.png}
+^^I^^I^^I^^I\caption{Original image of middle of head}
+^^I^^I^^I\end{subfigure}
+^^I^^I^^I\hfill
+^^I^^I^^I\begin{subfigure}[t]{0.3\textwidth}
+^^I^^I^^I^^I\centering
+^^I^^I^^I^^I\includegraphics[width=\linewidth]{NoisyScan.png}
+^^I^^I^^I^^I\caption{Image with noise added\\ Perhaps added way too much noise}
+^^I^^I^^I\end{subfigure}
+^^I^^I^^I\hfill
+^^I^^I^^I\begin{subfigure}[t]{0.3\textwidth}
+^^I^^I^^I^^I\centering
+^^I^^I^^I^^I\includegraphics[width=\linewidth]{ReconstructedFailure.png}
+^^I^^I^^I^^I\caption{Failure of Reconstruction}
+^^I^^I^^I\end{subfigure}
 ^^I^^I\end{figure}

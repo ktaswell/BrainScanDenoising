@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  11 SEP 2021 22:46
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  12 SEP 2021 09:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -776,12 +776,41 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count324
 \@thisrulewidth=\dimen296
 )
+(e:/TeXLive/2021/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(e:/TeXLive/2021/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen297
+\captionmargin@=\dimen298
+\captionwidth=\dimen299
+\caption@tempdima=\dimen300
+\caption@indent=\dimen301
+\caption@parindent=\dimen302
+\caption@hangindent=\dimen303
+Package caption Info: beamer document class detected.
+
+(e:/TeXLive/2021/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2020/08/22 v2.0 Adaption of the caption package to the
+ beamer document classes (AR)
+))
+\c@caption@flags=\count325
+\c@continuedfloat=\count326
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+(e:/TeXLive/2021/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+\c@subfigure=\count327
+\c@subtable=\count328
+)
 (e:/TeXLive/2021/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2020/12/31 v3.16 programmable bibliographies (PK/MW)
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count325
+\lrq@indent=\count329
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
@@ -789,48 +818,48 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 (e:/TeXLive/2021/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@tabx@nest=\count326
-\c@listtotal=\count327
-\c@listcount=\count328
-\c@liststart=\count329
-\c@liststop=\count330
-\c@citecount=\count331
-\c@citetotal=\count332
-\c@multicitecount=\count333
-\c@multicitetotal=\count334
-\c@instcount=\count335
-\c@maxnames=\count336
-\c@minnames=\count337
-\c@maxitems=\count338
-\c@minitems=\count339
-\c@citecounter=\count340
-\c@maxcitecounter=\count341
-\c@savedcitecounter=\count342
-\c@uniquelist=\count343
-\c@uniquename=\count344
-\c@refsection=\count345
-\c@refsegment=\count346
-\c@maxextratitle=\count347
-\c@maxextratitleyear=\count348
-\c@maxextraname=\count349
-\c@maxextradate=\count350
-\c@maxextraalpha=\count351
-\c@abbrvpenalty=\count352
-\c@highnamepenalty=\count353
-\c@lownamepenalty=\count354
-\c@maxparens=\count355
-\c@parenlevel=\count356
-\blx@tempcnta=\count357
-\blx@tempcntb=\count358
-\blx@tempcntc=\count359
-\blx@maxsection=\count360
-\blx@maxsegment@0=\count361
-\blx@notetype=\count362
-\blx@parenlevel@text=\count363
-\blx@parenlevel@foot=\count364
-\blx@sectionciteorder@0=\count365
-\blx@entrysetcounter=\count366
-\blx@biblioinstance=\count367
+\c@tabx@nest=\count330
+\c@listtotal=\count331
+\c@listcount=\count332
+\c@liststart=\count333
+\c@liststop=\count334
+\c@citecount=\count335
+\c@citetotal=\count336
+\c@multicitecount=\count337
+\c@multicitetotal=\count338
+\c@instcount=\count339
+\c@maxnames=\count340
+\c@minnames=\count341
+\c@maxitems=\count342
+\c@minitems=\count343
+\c@citecounter=\count344
+\c@maxcitecounter=\count345
+\c@savedcitecounter=\count346
+\c@uniquelist=\count347
+\c@uniquename=\count348
+\c@refsection=\count349
+\c@refsegment=\count350
+\c@maxextratitle=\count351
+\c@maxextratitleyear=\count352
+\c@maxextraname=\count353
+\c@maxextradate=\count354
+\c@maxextraalpha=\count355
+\c@abbrvpenalty=\count356
+\c@highnamepenalty=\count357
+\c@lownamepenalty=\count358
+\c@maxparens=\count359
+\c@parenlevel=\count360
+\blx@tempcnta=\count361
+\blx@tempcntb=\count362
+\blx@tempcntc=\count363
+\blx@maxsection=\count364
+\blx@maxsegment@0=\count365
+\blx@notetype=\count366
+\blx@parenlevel@text=\count367
+\blx@parenlevel@foot=\count368
+\blx@sectionciteorder@0=\count369
+\blx@entrysetcounter=\count370
+\blx@biblioinstance=\count371
 \labelnumberwidth=\skip64
 \labelalphawidth=\skip65
 \biblabelsep=\skip66
@@ -842,9 +871,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \blx@bcfin=\read3
 \blx@bcfout=\write5
 \blx@langwohyphens=\language87
-\c@mincomprange=\count368
-\c@maxcomprange=\count369
-\c@mincompwidth=\count370
+\c@mincomprange=\count372
+\c@maxcomprange=\count373
+\c@mincompwidth=\count374
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -855,74 +884,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count371
-\c@savedafterword=\count372
-\c@annotator=\count373
-\c@savedannotator=\count374
-\c@author=\count375
-\c@savedauthor=\count376
-\c@bookauthor=\count377
-\c@savedbookauthor=\count378
-\c@commentator=\count379
-\c@savedcommentator=\count380
-\c@editor=\count381
-\c@savededitor=\count382
-\c@editora=\count383
-\c@savededitora=\count384
-\c@editorb=\count385
-\c@savededitorb=\count386
-\c@editorc=\count387
-\c@savededitorc=\count388
-\c@foreword=\count389
-\c@savedforeword=\count390
-\c@holder=\count391
-\c@savedholder=\count392
-\c@introduction=\count393
-\c@savedintroduction=\count394
-\c@namea=\count395
-\c@savednamea=\count396
-\c@nameb=\count397
-\c@savednameb=\count398
-\c@namec=\count399
-\c@savednamec=\count400
-\c@translator=\count401
-\c@savedtranslator=\count402
-\c@shortauthor=\count403
-\c@savedshortauthor=\count404
-\c@shorteditor=\count405
-\c@savedshorteditor=\count406
-\c@labelname=\count407
-\c@savedlabelname=\count408
-\c@institution=\count409
-\c@savedinstitution=\count410
-\c@lista=\count411
-\c@savedlista=\count412
-\c@listb=\count413
-\c@savedlistb=\count414
-\c@listc=\count415
-\c@savedlistc=\count416
-\c@listd=\count417
-\c@savedlistd=\count418
-\c@liste=\count419
-\c@savedliste=\count420
-\c@listf=\count421
-\c@savedlistf=\count422
-\c@location=\count423
-\c@savedlocation=\count424
-\c@organization=\count425
-\c@savedorganization=\count426
-\c@origlocation=\count427
-\c@savedoriglocation=\count428
-\c@origpublisher=\count429
-\c@savedorigpublisher=\count430
-\c@publisher=\count431
-\c@savedpublisher=\count432
-\c@language=\count433
-\c@savedlanguage=\count434
-\c@origlanguage=\count435
-\c@savedoriglanguage=\count436
-\c@pageref=\count437
-\c@savedpageref=\count438
+\c@afterword=\count375
+\c@savedafterword=\count376
+\c@annotator=\count377
+\c@savedannotator=\count378
+\c@author=\count379
+\c@savedauthor=\count380
+\c@bookauthor=\count381
+\c@savedbookauthor=\count382
+\c@commentator=\count383
+\c@savedcommentator=\count384
+\c@editor=\count385
+\c@savededitor=\count386
+\c@editora=\count387
+\c@savededitora=\count388
+\c@editorb=\count389
+\c@savededitorb=\count390
+\c@editorc=\count391
+\c@savededitorc=\count392
+\c@foreword=\count393
+\c@savedforeword=\count394
+\c@holder=\count395
+\c@savedholder=\count396
+\c@introduction=\count397
+\c@savedintroduction=\count398
+\c@namea=\count399
+\c@savednamea=\count400
+\c@nameb=\count401
+\c@savednameb=\count402
+\c@namec=\count403
+\c@savednamec=\count404
+\c@translator=\count405
+\c@savedtranslator=\count406
+\c@shortauthor=\count407
+\c@savedshortauthor=\count408
+\c@shorteditor=\count409
+\c@savedshorteditor=\count410
+\c@labelname=\count411
+\c@savedlabelname=\count412
+\c@institution=\count413
+\c@savedinstitution=\count414
+\c@lista=\count415
+\c@savedlista=\count416
+\c@listb=\count417
+\c@savedlistb=\count418
+\c@listc=\count419
+\c@savedlistc=\count420
+\c@listd=\count421
+\c@savedlistd=\count422
+\c@liste=\count423
+\c@savedliste=\count424
+\c@listf=\count425
+\c@savedlistf=\count426
+\c@location=\count427
+\c@savedlocation=\count428
+\c@organization=\count429
+\c@savedorganization=\count430
+\c@origlocation=\count431
+\c@savedoriglocation=\count432
+\c@origpublisher=\count433
+\c@savedorigpublisher=\count434
+\c@publisher=\count435
+\c@savedpublisher=\count436
+\c@language=\count437
+\c@savedlanguage=\count438
+\c@origlanguage=\count439
+\c@savedoriglanguage=\count440
+\c@pageref=\count441
+\c@savedpageref=\count442
 \shorthandwidth=\skip72
 \shortjournalwidth=\skip73
 \shortserieswidth=\skip74
@@ -952,19 +981,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count439
-\c@textcitetotal=\count440
-\c@textcitemaxnames=\count441
-\c@biburlbigbreakpenalty=\count442
-\c@biburlbreakpenalty=\count443
-\c@biburlnumpenalty=\count444
-\c@biburlucpenalty=\count445
-\c@biburllcpenalty=\count446
+\c@textcitecount=\count443
+\c@textcitetotal=\count444
+\c@textcitemaxnames=\count445
+\c@biburlbigbreakpenalty=\count446
+\c@biburlbreakpenalty=\count447
+\c@biburlnumpenalty=\count448
+\c@biburlucpenalty=\count449
+\c@biburllcpenalty=\count450
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count447
+\c@smartand=\count451
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -986,8 +1015,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count448
-\c@bbx:relatedtotal=\count449
+\c@bbx:relatedcount=\count452
+\c@bbx:relatedtotal=\count453
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -999,10 +1028,10 @@ Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count450
-\c@cbx@tempcntb=\count451
-\c@cbx@tempcntc=\count452
-\c@cbx@tempcntd=\count453
+\c@cbx@tempcnta=\count454
+\c@cbx@tempcntb=\count455
+\c@cbx@tempcntc=\count456
+\c@cbx@tempcntd=\count457
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -1024,50 +1053,50 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (e:/TeXLive/2021/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-\@quotelevel=\count454
-\@quotereset=\count455
+\@quotelevel=\count458
+\@quotereset=\count459
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2021-03-18 L3 backend support: XeTeX
 
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count456
-\l__color_backend_stack_int=\count457
-\g__color_backend_stack_int=\count458
-\g__graphics_track_int=\count459
+\c__kernel_sys_dvipdfmx_version_int=\count460
+\l__color_backend_stack_int=\count461
+\g__color_backend_stack_int=\count462
+\g__graphics_track_int=\count463
 \l__pdf_internal_box=\box73
-\g__pdf_backend_object_int=\count460
-\g__pdf_backend_annotation_int=\count461
-\g__pdf_backend_link_int=\count462
+\g__pdf_backend_object_int=\count464
+\g__pdf_backend_annotation_int=\count465
+\g__pdf_backend_link_int=\count466
 ) (./BrainScanDenoisingKTAGslides.aux)
 \openout1 = `BrainScanDenoisingKTAGslides.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
-2.
+3.
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1103,7 +1132,7 @@ LaTeX Font Info:    ... okay on input line 42.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 43.
 (e:/TeXLive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -1113,58 +1142,58 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (e:/TeXLive/2021/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count463
+\c@section@level=\count467
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./BrainScanDenoisingKTAGslides.out) (./BrainScanDenoisingKTAGslides.out)
 \@outlinefile=\write6
 \openout6 = `BrainScanDenoisingKTAGslides.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 42.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 42.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 43.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 42.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 42.
+(Font)                  OT1/cmss/m/n --> TU/lmr/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 42.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 42.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 42.
+(Font)                  OT1/cmr/bx/n --> TU/lmss/b/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 42.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 42.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 42.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/m/n on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 42.
+(Font)                  OT1/cmr/m/it --> TU/lmss/m/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 42.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 42.
+(Font)                  OT1/cmr/bx/it --> TU/lmss/m/it on input line 43.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 42.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 42.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 42.
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 42.
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 42.
+(Font)                  OT1/cmss/b/n --> TU/lmr/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 42.
+(Font)                  TU/lmss/b/n --> TU/lmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 42.
+(Font)                  TU/lmss/m/n --> TU/lmss/b/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 42.
+(Font)                  TU/lmss/m/it --> TU/lmss/b/it on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 42.
+(Font)                  TU/lmtt/m/n --> TU/lmtt/b/n on input line 43.
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/translator/translator-basic-dictionary-En
 glish.dict
@@ -1190,6 +1219,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (e:/TeXLive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1220,8 +1251,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'BrainScanDenoisingKTAGslides.bbl' found.
 
 (./BrainScanDenoisingKTAGslides.bbl)
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
  (./BrainScanDenoisingKTAGslides.nav)
 Missing character: There is no 5 ("35) in font nullfont!
 
@@ -1230,30 +1261,30 @@ Missing character: There is no 5 ("35) in font nullfont!
 ] (./BrainScanDenoisingKTAGslides.toc) [2
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
 
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 67.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
 
 
 (e:/TeXLive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 67.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 68.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <8> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 67.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 68.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <6> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 67.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 68.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10.95> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 67.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <8> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 67.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <6> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 67.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 68.
  [3
 
 ] [4
@@ -1265,25 +1296,25 @@ Missing character: There is no 1 ("31) in font nullfont!
 
 ]
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <10> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <7> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <5> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 113.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <7> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 113.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <5> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 113.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <17.28> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <12> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 113.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <17.28> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 113.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <12> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 112.
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 113.
  [6
 
 ]
@@ -1299,7 +1330,7 @@ File: Kingfisher.jpg Graphic file (type bmp)
 File: KingfisherWNoise.png Graphic file (type bmp)
 <KingfisherWNoise.png>
 )
-Overfull \vbox (5.74199pt too high) detected at line 134
+Overfull \vbox (5.74199pt too high) detected at line 135
  []
 
 [8
@@ -1308,7 +1339,7 @@ Overfull \vbox (5.74199pt too high) detected at line 134
 File: BeakNoise.png Graphic file (type bmp)
 <BeakNoise.png>
 
-Overfull \vbox (5.49844pt too high) detected at line 149
+Overfull \vbox (3.72118pt too high) detected at line 150
  []
 
 [9
@@ -1316,20 +1347,12 @@ Overfull \vbox (5.49844pt too high) detected at line 149
 ]
 File: ArbitraryDenoise.png Graphic file (type bmp)
 <ArbitraryDenoise.png>
-
-Overfull \vbox (0.41666pt too high) detected at line 167
- []
-
-[10
+ [10
 
 ]
 File: SquareDenoise.png Graphic file (type bmp)
 <SquareDenoise.png>
-
-Overfull \vbox (4.30104pt too high) detected at line 185
- []
-
-[11
+ [11
 
 ]
 File: BulkDenoise.png Graphic file (type bmp)
@@ -1338,41 +1361,71 @@ File: BulkDenoise.png Graphic file (type bmp)
 
 ] [13
 
-] [14
-
 ]
 LaTeX Font Info:    Font shape `TU/lmss/b/n' in size <9> not available
-(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 249.
+(Font)              Font shape `TU/lmss/bx/n' tried instead on input line 240.
 LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
-(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 249.
- [15
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 240.
+ [14
 
 ]
 File: BrainScan.png Graphic file (type bmp)
 <BrainScan.png>
- [16
+ [15
+
+] [16
 
 ] [17
 
-] [18
-
 ]
 File: BrainScan.png Graphic file (type bmp)
 <BrainScan.png>
 
-Overfull \vbox (10.21928pt too high) detected at line 300
+Overfull \vbox (5.76529pt too high) detected at line 291
  []
 
-[19
+[18
 
-] [20
+]
+\openout4 = `BrainScanDenoisingKTAGslides.vrb'.
+
+ (./BrainScanDenoisingKTAGslides.vrb
+File: BrainScanComparison.png Graphic file (type bmp)
+<BrainScanComparison.png>
+File: NoisyScan.png Graphic file (type bmp)
+<NoisyScan.png>
+File: ReconstructedFailure.png Graphic file (type bmp)
+<ReconstructedFailure.png>
+) [19
+
+]
+File: SignalToNoiseSlices.png Graphic file (type bmp)
+<SignalToNoiseSlices.png>
+File: SignalToNoiseSlicesNA.png Graphic file (type bmp)
+<SignalToNoiseSlicesNA.png>
+ [20
+
+] [21
+
+]
+File: ShearedBrainScan.png Graphic file (type bmp)
+<ShearedBrainScan.png>
+File: BrainScan.png Graphic file (type bmp)
+<BrainScan.png>
+File: TopBrainScan.png Graphic file (type bmp)
+<TopBrainScan.png>
+ [22
+
+] [23
+
+] [24
 
 ]
 
 LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 321.
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 420.
 
-[21
+[25
 
 ]
 \tf@nav=\write7
@@ -1394,12 +1447,12 @@ Package logreq Info: Writing requests to 'BrainScanDenoisingKTAGslides.run.xml'
 
  ) 
 Here is how much of TeX's memory you used:
- 27921 strings out of 476919
- 533094 string characters out of 5825424
- 1258805 words of memory out of 5000000
- 47316 multiletter control sequences out of 15000+600000
- 416138 words of font info for 109 fonts, out of 8000000 for 9000
+ 29287 strings out of 476919
+ 559932 string characters out of 5825424
+ 1277463 words of memory out of 5000000
+ 48661 multiletter control sequences out of 15000+600000
+ 416306 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,132p,1957b,4806s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,11n,132p,1957b,4805s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on BrainScanDenoisingKTAGslides.pdf (21 pages).
+Output written on BrainScanDenoisingKTAGslides.pdf (25 pages).

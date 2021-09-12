@@ -4,4 +4,4 @@
 \defcounter {refsection}{0}\relax 
 \beamer@sectionintoc {2}{Simple Example - Kingfisher}{7}{0}{2}
 \defcounter {refsection}{0}\relax 
-\beamer@sectionintoc {3}{Hard Application - Medical Imaging}{16}{0}{3}
+\beamer@sectionintoc {3}{Hard Application - Medical Imaging}{15}{0}{3}

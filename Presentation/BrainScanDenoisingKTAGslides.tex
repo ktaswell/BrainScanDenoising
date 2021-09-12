@@ -7,7 +7,8 @@
 \usepackage{graphicx} % Allows including noisy
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
 \usepackage{hyperref}
-
+\usepackage{caption}
+\usepackage{subcaption}
 % begin BibLaTeX section
 \usepackage[backend=biber,texencoding=utf8,bibencoding=utf8,style=ieee,maxnames=3,bibwarn=true]{biblatex}
 %\renewcommand*{\revsdnamepunct}{} % to eliminate the extra comma between last name and firstmiddle initials
@@ -124,8 +125,8 @@
 
 	\begin{frame}[fragile]{A Noisy Image}
 		\begin{itemize}
-			\item Suppose we have noise in an image. We can simulate this by adding noise to our beautiful picture of a Kingfisher in MATLAB with \verb*|imnoise(I)|	
-			\item Image Properties: $1724\times1724$ in full JPG RGB color scale from 0 to 255 for Red, Green, and Blue. Noise Introduced $r_{red} = 11.1265, r_{green} = 6.8694, r_{blue} = 7.0581$
+			\item Suppose we have noise in an image. We can simulate this by adding noise to our beautiful picture of a Kingfisher in MATLAB with default \verb*|imnoise(I,'gaussian')|	
+			\item Image Properties: $1724\times1724$ in full JPG RGB color scale from 0 to 255 for Red, Green, and Blue. Noise Introduced $r_{red} = 11.1265 \text{dB}, r_{green} = 6.8694 \text{dB}, r_{blue} = 7.0581 \text{dB}$
 		\end{itemize}
 		\begin{figure}
 			\centering
@@ -139,7 +140,7 @@
 		\begin{itemize}
 			\item \textbf{Mean Squared Error:} Measure the average difference between two matricies by performing $\text{MSE} = \frac{1}{mn}\sum_{i=1}^m\sum_{j=1}^{n}(a_{ij}-\hat{a}_{ij})^2$
 			\item \textbf{Frobenius Norm:} Calculate $\|A-\hat{A}\|_F$ to find the 'distance' between the two matricies\cite{Shabalin2013}.  
-			\item \textbf{Signal-Noise Ratio:} In general $\text{SNR} = \frac{P_{signal}}{P_{noise}}$ where $P$ refers to the power of the signal or noise. More specifically this could be $\text{SNR} = \frac{s^2}{EN^2}$ where $E$ is the expected value and $N$ is the random noise.
+			\item \textbf{Signal-Noise Ratio:} In general $\text{SNR} = \frac{P_{signal}}{P_{noise}}$ where $P$ refers to the power of the signal or noise. More specifically this could be $\text{SNR} = \frac{s^2}{EN^2}$ where $E$ is the expected value and $N$ is the random noise. Typically measured in decibels on a $\log_{10}$ scale. 
 		\end{itemize}
 	\begin{figure}
 		\centering
@@ -208,20 +209,10 @@
 		\begin{itemize}
 			\item A keen eye might notice that there does \textbf{not} appear to be a large amount of difference between the results of our three thresholding methods.
 			\item By evaluating original MSE of the raw image in comparison to the noisy image we find $\text{MSE}(I, I_{noisy}) = 0.0066$, a small but not insignificant amount of variance.
-			\item When calculating the MSE of the raw image in comparison to all three of the denoised images, we find the exact same value $\text{MSE}(I, I_{denoised}) = 0.0022$ for an overall reduction of variance by 60\%. 
-			\item However none of the three methods, despite having slightly different threshold values, had significant difference in results.
-		\end{itemize}
-	\end{frame}
-	
-	%------------------------------------------------
-	
-	\begin{frame}{Performance}
-		\begin{itemize}
-			\item A keen eye might notice that there does \textbf{not} appear to be a large amount of difference between the results of our three thresholding methods.
-			\item By evaluating original MSE of the raw image in comparison to the noisy image we find $\text{MSE}(I, I_{noisy}) = 0.0066$, a small but not insignificant amount of variance.
 			\item When calculating the MSE of the raw image in comparison to all three of the denoised images, we find the exact same value $\text{MSE}(I, I_{denoised}) = 0.0022$ meaning that approximately 2/3rds of the variance or noise in the image remained. 
 			\item However none of the three methods, despite having slightly different threshold values, had significant difference in results.
-			\item Another important note is that in losing a lot of noise, we've also lost some amount of signal (See pixelation on the branch and elsewhere). This is less noticeable since our image is already high resolution aka the matrix is large but will be easily noticeable in images that begin with significantly lower resolution.
+			\item Another important note is that in losing a lot of noise, we've also lost some amount of signal (See pixelation on the branch and elsewhere). This is less noticeable since our image is already high resolution aka the matrix is large but will be easily noticeable in images that begin with significantly lower resolution. This appears in our $\sigma = \text{SNR}$ as higher noise ratio than originally measured, however the MSE remains low.
+			
 		\end{itemize}
 	\end{frame}
 
@@ -247,7 +238,6 @@
 			\caption{Comparison of results when denoising and approximating $r = 1724$ Red, Green, and Blue color matricies}
 		\end{table}
 	\end{frame}
-
 	
 	%------------------------------------------------
 	\section{Hard Application - Medical Imaging}
@@ -277,7 +267,8 @@
 			\item Since medical data is 3D, not 2D, it is a lot more challenging then merely applying some of the denoising techniques discussed previously. 
 			\item Additionally, medical data is not as high resolution as common photographs and may be described by a much more sparse matrix, causing low rank approximation to have much more error.
 			\item Many different high level complex denoising techniques exist and work very well.
-			\item In this presentation, we will instead take simplistic approach by attempting to only apply the basic techniques previously discussed.
+			\item In this presentation, we will instead take simplistic approach by attempting to only apply the basic techniques previously discussed at each 2D image slice in the overall volume.
+			\item \textit{Disclaimer/Spoiler: } It is completely nonsensical to denoise a volume by each 2D image since noise can be distributed throughout the volume. This presentation will display a situation where using these basic techniques are \textbf{not} optimal.
 		\end{itemize}
 	\end{frame}
 	
@@ -301,19 +292,127 @@
 	
 	%------------------------------------------------
 	
-	\begin{frame}{Removing noise with Arbitrary Thresholding}
+	\begin{frame}[fragile]{Removing noise with Thresholding}
 		\begin{itemize}
 			\item For each image slice in the 1st dimension:
 			\begin{enumerate}
-				\item Add noise
+				\item Add noise with default \verb*|imnoise(I,'gaussian')|
 				\item Denoise with arbitrary thresholding $\tau = 2.858y_{\text{med}}$
 				\item Find $\hat{A} = \hat{U}\hat{\Sigma}\hat{V}^{T}$
 				\item Measure the signal to noise ratio for both the noisy and denoised image.
 			\end{enumerate}
+			\item The process was also repeated with non-arbitrary thresholding
 		\end{itemize}
+		
+		\begin{figure}
+			\centering
+			\begin{subfigure}[t]{0.3\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{BrainScanComparison.png} 
+				\caption{Original image of middle of head}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{0.3\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{NoisyScan.png} 
+				\caption{Image with noise added\\ Perhaps added way too much noise}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{0.3\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{ReconstructedFailure.png} 
+				\caption{Failure of Reconstruction}
+			\end{subfigure}
+		\end{figure}
 	\end{frame}
 	
 	%------------------------------------------------	
+
+	\begin{frame}{Results}
+		\begin{figure}
+			\centering
+			\begin{subfigure}[t]{0.45\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{SignalToNoiseSlices.png} 
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{0.45\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{SignalToNoiseSlicesNA.png} 
+			\end{subfigure}
+		\end{figure}
+		\begin{itemize}
+			\item Yes those numbers are negative! 
+		\end{itemize}
+	\end{frame}
+	
+	%------------------------------------------------
+	
+	\begin{frame}{Discussion}
+		\begin{itemize}
+			\item What do negative $\Delta \sigma$ values mean?
+			\begin{itemize}
+				\item Our reconstructed image took out some noise, but lost so much signal that the difference appears both numerically and visually as even more noise than before.
+				\item Average noise per image after adding noise was 14.07dB, almost 1000 times more noise added than noise added to red matrix of kingfisher
+				\item Negative values this high mean that the image is no longer recognizable thus rank of approximation is too low. This is easily verifiable by visual inspection.
+			\end{itemize}
+			\item We see an interesting change with higher negative values in slices 0-100, then a jump from $\Delta\sigma \approx -20$ up to $\Delta\sigma\approx -16.5$. Why?
+			\begin{itemize}
+				\item Let's take a look at the volume to try to figure this out.
+			\end{itemize}
+		\end{itemize}
+	\end{frame}
+	
+	%------------------------------------------------
+	
+	\begin{frame}{Some Observations}
+		\begin{figure}
+			\centering
+			\begin{subfigure}[t]{0.3\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{ShearedBrainScan.png} 
+				\caption{Image of lower-middle of head, sheared to protect identity}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{0.3\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{BrainScan.png} 
+				\caption{Full image of middle of brain}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{0.3\textwidth}
+				\centering
+				\includegraphics[width=\linewidth]{TopBrainScan.png} 
+				\caption{Sparse image at top of the brain}
+			\end{subfigure}
+		\end{figure}
+		\begin{itemize}
+			\item Clean continuous regions (middle of brain and higher) perform slightly better due to no abrupt shearing and loss of data
+			\item Images around slice 90 and below were all sheared so had non-continuous regions.
+		\end{itemize}
+	\end{frame}
+	
+	%------------------------------------------------
+
+	\begin{frame}{Conclusions}
+		\begin{itemize}
+			\item On a large matrix such as the kingfisher picture, low rank approximation allows us to recreate an image with low mean-square error, thus high similarity.
+			\item Loss of signal appears as noise in signal-to-noise metrics, however, we can verify that it is loss of signal, not added noise since MSE is low. Reducing the overall resolution would likely reduce the impact this has visually on an image.
+			\item On a smaller matrix such as brain imaging data, these methods are \textbf{not} accurate with too much loss of signal.
+			\item Further investigation would include a comparison of hard thresholding to other methods such as soft thresholding, wavelet	transform domain methods\cite{Taswell2000}, convolutional neural network based methods, and more \cite{Fan2019}
+		\end{itemize}
+	\end{frame}
+		
+	%------------------------------------------------
+	
+	\begin{frame}{TL:DR - Too Long, Didn't Read}
+		\begin{itemize}
+			\item Although there may exist some \textit{optimal thresholding coefficient} for hard thresholding, Hard thresholding is \textit{not always the optimal method}.
+			\item Choose the right tool for the right job and don't assume a method will work well for all input data of similar types.
+		\end{itemize}
+	\end{frame}	
+		
+	%------------------------------------------------
 	
 	\begin{frame}{References}
 		% Beamer does not support BibTeX so references must be inserted manually as below
