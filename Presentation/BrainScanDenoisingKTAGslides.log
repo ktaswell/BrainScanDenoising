@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  11 SEP 2021 16:33
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  11 SEP 2021 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1299,7 +1299,7 @@ File: Kingfisher.jpg Graphic file (type bmp)
 File: KingfisherWNoise.png Graphic file (type bmp)
 <KingfisherWNoise.png>
 )
-Overfull \vbox (2.57994pt too high) detected at line 134
+Overfull \vbox (5.74199pt too high) detected at line 134
  []
 
 [8
