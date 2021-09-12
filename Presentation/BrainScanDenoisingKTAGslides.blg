@@ -1,19 +1,19 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'BrainScanDenoisingKTAGslides.blg'
-[97] biber-MSWIN32:340> INFO - === 
-[129] Biber.pm:415> INFO - Reading 'BrainScanDenoisingKTAGslides.bcf'
-[225] Biber.pm:952> INFO - Found 4 citekeys in bib section 0
-[239] Biber.pm:4340> INFO - Processing section 0
-[251] Biber.pm:4531> INFO - Looking for bibtex format file 'Denoising.bib' for section 0
-[295] bibtex.pm:1689> INFO - LaTeX decoding ...
-[317] bibtex.pm:1494> INFO - Found BibTeX data source 'Denoising.bib'
-[348] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Eckart1936' is not an integer - this will probably not sort properly.
-[351] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Chatterjee2015' is not an integer - this will probably not sort properly.
-[357] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Shabalin2013' is not an integer - this will probably not sort properly.
-[377] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[377] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[377] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[377] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
-[383] bbl.pm:654> INFO - Writing 'BrainScanDenoisingKTAGslides.bbl' with encoding 'UTF-8'
-[386] bbl.pm:757> INFO - Output to BrainScanDenoisingKTAGslides.bbl
-[386] Biber.pm:128> INFO - WARNINGS: 3
+[119] biber-MSWIN32:340> INFO - === 
+[152] Biber.pm:415> INFO - Reading 'BrainScanDenoisingKTAGslides.bcf'
+[247] Biber.pm:952> INFO - Found 4 citekeys in bib section 0
+[262] Biber.pm:4340> INFO - Processing section 0
+[276] Biber.pm:4531> INFO - Looking for bibtex format file 'Denoising.bib' for section 0
+[324] bibtex.pm:1689> INFO - LaTeX decoding ...
+[345] bibtex.pm:1494> INFO - Found BibTeX data source 'Denoising.bib'
+[374] Utils.pm:395> WARN - legacy month field 'sep' in entry 'Eckart1936' is not an integer - this will probably not sort properly.
+[377] Utils.pm:395> WARN - legacy month field 'feb' in entry 'Chatterjee2015' is not an integer - this will probably not sort properly.
+[382] Utils.pm:395> WARN - legacy month field 'jul' in entry 'Shabalin2013' is not an integer - this will probably not sort properly.
+[393] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[394] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[394] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[394] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[397] bbl.pm:654> INFO - Writing 'BrainScanDenoisingKTAGslides.bbl' with encoding 'UTF-8'
+[400] bbl.pm:757> INFO - Output to BrainScanDenoisingKTAGslides.bbl
+[400] Biber.pm:128> INFO - WARNINGS: 3

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  11 SEP 2021 21:44
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021/W32TeX) (preloaded format=xelatex 2021.8.25)  11 SEP 2021 22:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1348,13 +1348,31 @@ LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <9> not available
  [15
 
 ]
-
-LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
-(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 258.
-
-[16
+File: BrainScan.png Graphic file (type bmp)
+<BrainScan.png>
+ [16
 
 ] [17
+
+] [18
+
+]
+File: BrainScan.png Graphic file (type bmp)
+<BrainScan.png>
+
+Overfull \vbox (10.21928pt too high) detected at line 300
+ []
+
+[19
+
+] [20
+
+]
+
+LaTeX Font Warning: Font shape `TU/lmss/m/sc' in size <10> not available
+(Font)              Font shape `TU/lmr/m/sc' tried instead on input line 321.
+
+[21
 
 ]
 \tf@nav=\write7
@@ -1376,12 +1394,12 @@ Package logreq Info: Writing requests to 'BrainScanDenoisingKTAGslides.run.xml'
 
  ) 
 Here is how much of TeX's memory you used:
- 27910 strings out of 476919
- 533001 string characters out of 5825424
- 1258637 words of memory out of 5000000
- 47305 multiletter control sequences out of 15000+600000
- 416146 words of font info for 110 fonts, out of 8000000 for 9000
+ 27921 strings out of 476919
+ 533094 string characters out of 5825424
+ 1258805 words of memory out of 5000000
+ 47316 multiletter control sequences out of 15000+600000
+ 416138 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 131i,11n,132p,1957b,4802s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 131i,11n,132p,1957b,4806s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on BrainScanDenoisingKTAGslides.pdf (17 pages).
+Output written on BrainScanDenoisingKTAGslides.pdf (21 pages).
