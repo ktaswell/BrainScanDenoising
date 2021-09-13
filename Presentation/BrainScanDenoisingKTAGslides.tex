@@ -62,8 +62,8 @@
 			\item \textbf{Singular value decomposition} provides ability to generalize from $A = \Phi\Lambda\Phi^{-1}$ to $A = U\Sigma V^{T}$
 			\item For a given matrix $A$ which is size $m\times n$, $U$ is the left unitary matrix forming an orthonormal basis for $\mathbb{R}^m$  while $V$ is the right unitary matrix forming an orthonormal basis for $\mathbb{R}^n$
 			\item $\Sigma$ is an $m\times n$ diagonal matrix of the singular values where $\sigma_1 \geq \sigma_2 \geq \sigma_n$. 
-			\item Each combination of of $\vec{u}_i$, $\sigma_i$, and $\vec{v}_i$ for $1\leq i \leq \text{rank}(\Sigma)$ creates a rank one matrix $A_i = \sigma_i\vec{u}_i\vec{v}_i$.
-			\item We can then approximate the original matrix $A$ by performing a \textbf{low rank approximation} of rank $k$ with $A_k = \sum_{i=1}^{k}  \sigma_i\vec{u}_i\vec{v}_i$
+			\item Each combination of of $\vec{u}_i$, $\sigma_i$, and $\vec{v}_i$ for $1\leq i \leq \text{rank}(\Sigma)$ creates a rank one matrix $A_i = \sigma_i\vec{u}_i\vec{v}_i^T$.
+			\item We can then approximate the original matrix $A$ by performing a \textbf{low rank approximation} of rank $k$ with $A_k = \sum_{i=1}^{k}  \sigma_i\vec{u}_i\vec{v}_i^T$
 		\end{itemize}
 	\end{frame}
 	
@@ -88,7 +88,7 @@
 		To simplify notation and reduce confusion we will refer to singular values as $y$ and noise level as $\sigma$ going forward
 	\end{block}
 			\item How can we determine this?
-			\item Choose a threshold $\tau$, if a singular value $\sigma_i$ is below our threshold ($y_i < \tau$), then set $y_i=0$
+			\item Choose a threshold $\tau$, if a singular value $y_i$ is below our threshold ($y_i < \tau$), then set $y_i=0$
 			\item In doing so, we find an estimation of $A$ which uses less data and is of lower rank. For the values of $y_i = 0$, the corresponding $\vec{u}_i\vec{v}_i$
 			\item In general we can choose $\tau = \lambda\sqrt{n}\sigma$\cite{Chatterjee2015} where $n$ is the size of a square matrix and $\lambda$ is some coefficient typically between 1 and 10.
 		\end{itemize}

@@ -1,4 +1,4 @@
-function [Nvol, Dvol, snrNvec, snrDvec] = TestVolume(Vol)
+function [Nvol, Dvol, snrNvec, snrDvec, r] = TestVolume(Vol, m, v)
 % TestVolume - Tests a volume for Optimal Hard Threshold denoising along the 3rd dimension 
 %
 %       Inputs:
@@ -12,6 +12,7 @@ function [Nvol, Dvol, snrNvec, snrDvec] = TestVolume(Vol)
 %           image slice in Nvol
 %           snrDvec - 1D vector of signal to noise ratios of each denoised
 %           2D image slice in Dvol
+%           r - 1D vector of rank of approximation
 %
 
 %Initialize data structures with 0s
@@ -21,9 +22,10 @@ Dvol = zeros(n);
 
 snrNvec = zeros(n(1), 1);
 snrDvec = zeros(n(1), 1);
+r = zeros(n(1), 1);
 
 for i = 1:n(1)
-    [Nvol(:, :, i), Dvol(:, :, i), snrNvec(i), snrDvec(i)] = TestImage(Vol(:, :, i));
+    [Nvol(:, :, i), Dvol(:, :, i), snrNvec(i), snrDvec(i), r(i)] = TestImage(Vol(:, :, i), m, v);
 end
 
 end

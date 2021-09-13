@@ -1,4 +1,4 @@
-function [N, D, snrN, snrD] = TestImage(I)
+function [N, D, snrN, snrD, r] = TestImage(I, m, v)
 % TestSlice - Tests a single 2D image for accuracy of denoising via Optimal
 % Hard Thresholding.
 %
@@ -11,10 +11,11 @@ function [N, D, snrN, snrD] = TestImage(I)
 %           Thresholding
 %           snrN - Signal to Noise Ratio of Noisey 2D Image matrix
 %           snrD - Signal to Noise Ratio of Denoised 2D Image matrix
+%           r - rank of approximation
 
 
     I = im2double(I);
-    N = imnoise(I, "gaussian");
+    N = imnoise(I, "gaussian", m, v);
     [U, S, V] = svd(N);
     
     c = 2.858; % threshold coefficeint
@@ -27,4 +28,6 @@ function [N, D, snrN, snrD] = TestImage(I)
     
     snrN = snr(I, N-I);
     snrD = snr(I, D-I);
+    
+    r = rank(S);
 end 
